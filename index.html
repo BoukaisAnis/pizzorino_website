@@ -1,12 +1,100 @@
 <!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pizzorino</title>
 </head>
-<body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae recusandae eos, sunt a id optio tempore porro amet. Accusantium eius architecto corporis veritatis eaque id natus sed praesentium iusto! Maxime?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque molestiae dolor quaerat a cum, officia, et nam distinctio dolore ex earum non ipsum suscipit quas fugiat expedita aut repellendus sunt.</p>
+<body style="background-color: rgb(249, 127, 20);">
+
+    <!-- Header with Navigation Bar -->
+    <header style="background-color: #333; padding: 10px; color: white;">
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+            <div style="font-size: 24px; font-weight: bold;">
+                Pizzorino <span style="font-size: 24px;">🍕</span>
+            </div>
+            <nav>
+                <ul style="list-style: none; display: flex; margin: 0; padding: 0;">
+                    <li style="margin-right: 20px;"><a href="#" style="color: rgb(247, 86, 0);">Home</a></li>
+                    <li style="margin-right: 20px;"><a href="#about" style="color: rgb(247, 86, 0);">About</a></li>
+                    <li style="margin-right: 20px;"><a href="#recipes" style="color: rgb(247, 86, 0);">Recipes</a></li>
+                    <li style="margin-right: 20px;"><a href="#contact" style="color: rgb(247, 86, 0);">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- First Section: Presentation of the Shop -->
+    <section id="about" style="margin-top: 20px;">
+        <h2>Welcome to Pizzorino</h2>
+        <img src="./att.UIYP5NY8qnxXd2hBWg3myNRU37F9GoAtlujfsdWsOaI (1).jpg" alt="Pizzorino Shop" style="width: 100%; max-width: 600px;">
+        <p>Welcome to Pizzorino, your favorite pizza shop! We offer a wide variety of delicious pizzas made with fresh ingredients. Come and enjoy our cozy atmosphere and friendly staff.</p>
+    </section>
+
+    <!-- Second Section: Description of Pizzorino -->
+    <section id="description" style="margin-top: 20px;">
+        <h2>About Pizzorino</h2>
+        <img src="./att.Y-Y6saELmtaNpgRJsCRs0z2klpRxHnubvxvAJMKNIyE.jpg" alt="Pizzorino Staff" style="width: 100%; max-width: 600px;">
+        <p>Pizzorino is renowned for its exquisite pizzas and outstanding service. Our staff is dedicated to providing you with the best dining experience.</p>
+    </section>
+
+    <!-- Third Section: Recipes for Krabby Pizzas -->
+    <section id="recipes" style="margin-top: 20px;">
+        <h2>Our Special Krabby Pizzas</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+            <div style="background-color: #fff; padding: 10px; border: 1px solid #ddd;">
+                <h3>Krabby Pizza 1</h3>
+                <p>Toppings: Tomato, Cheese, Pepperoni</p>
+            </div>
+            <div style="background-color: #fff; padding: 10px; border: 1px solid #ddd;">
+                <h3>Krabby Pizza 2</h3>
+                <p>Toppings: Tomato, Cheese, Mushrooms</p>
+            </div>
+            <div style="background-color: #fff; padding: 10px; border: 1px solid #ddd;">
+                <h3>Krabby Pizza 3</h3>
+                <p>Toppings: Tomato, Cheese, Sausage</p>
+            </div>
+            <div style="background-color: #fff; padding: 10px; border: 1px solid #ddd;">
+                <h3>Krabby Pizza 4</h3>
+                <p>Toppings: Tomato, Cheese, Onions</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fourth Section: Contact Form -->
+    <section id="contact" style="margin-top: 20px;">
+        <h2>Contact Pizzorino</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="text" id="phone" name="phone"><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer style="margin-top: 20px; padding: 10px; background-color: #333; color: white;">
+        <p>&copy; 2024 Pizzorino. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="#" style="color: white;">Facebook</a> |
+            <a href="#" style="color: white;">Twitter</a> |
+            <a href="#" style="color: white;">Instagram</a>
+        </p>
+        <p>Phone: +123-456-7890</p>
+    </footer>
+
 </body>
 </html>
